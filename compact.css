@@ -1,0 +1,46 @@
+/*
+* Compact v1.0.0
+* Copyright 2017, Shane Bodimer
+*/
+
+/* -------------------------------------------------------------------------- */
+body {
+  margin: 0px;
+  padding: 0px; }
+
+
+/* Colors ------------------------------------------------------------------- */
+/* Background */
+.bg-red { background: #FF4C23; }
+.bg-orange { background: #FF9F19; }
+.bg-yellow { background: #E6D739; }
+.bg-green { background: #00CC44; }
+.bg-blue { background: #3D99F5; }
+.bg-white { background: #FFF; }
+.bg-grey { background: #CCC; }
+.bg-black { background: #000; }
+/* Text */
+.tx-red { color: #FF4C23; }
+.tx-orange { color: #FF9F19; }
+.tx-yellow { color: #E6D739; }
+.tx-green { color: #00CC44; }
+.tx-blue { color: #3D99F5; }
+.tx-white { color: #FFF; }
+.tx-grey { color: #CCC; }
+.tx-black { color: #000; }
+
+/* -------------------------------------------------------------------------- */
+.container {
+  width: 100%-20px;
+  max-width: 960px;
+  padding: 0px 20px 0px 20px;
+}
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
