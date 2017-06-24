@@ -1,7 +1,6 @@
 /*
-* Compact v1.0.0
+* Petite v1.0.0
 * Copyright 2017, Shane Bodimer
-* Super simple, super slim
 */
 
 /* -------------------------------------------------------------------------- */
@@ -92,14 +91,30 @@ input[type="button"]:hover { background: #f2f2f2; }
 .btn-black:hover { background: #262626; }
 
 /* Grid --------------------------------------------------------------------- */
-.row { width: 100%; }
-.col { width: 100%; }
-.col:nth-child(1) { display: inline-block;}
-.col:nth-child(2) { display: inline-block; float: right; }
-
+.col {
+  width: 100%;
+  float: left; }
 @media (min-width: 550px) {
-  .col.half { width: 50%; }
-}
+  .col { margin-left: 4%; }
+  .col:first-child { margin-left: 0; }
+  .full.col      { width: 100%;           }
+  .one.col       { width: 4.66666666667%; }
+  .two.col       { width: 13.3333333333%; }
+  .three.col     { width: 22%;            }
+  .four.col      { width: 30.6666666667%; }
+  .five.col      { width: 39.3333333333%; }
+  .six.col       { width: 48%;            }
+  .seven.col     { width: 56.6666666667%; }
+  .eight.col     { width: 65.3333333333%; }
+  .nine.col      { width: 74.0%;          }
+  .ten.col       { width: 82.6666666667%; }
+  .eleven.col    { width: 91.3333333333%; }
+  .twelve.col    { width: 100%; margin-left: 0; }
+
+
+
+
+
 
 
 
@@ -109,7 +124,7 @@ input[type="button"]:hover { background: #f2f2f2; }
 /* Typography --------------------------------------------------------------- */
 .tx-uppercase { text-transform: uppercase; } /* ------------------- Modifiers */
 .tx-clear { text-decoration: none; }
-.tx-center { text-align: center; }
+.tx-center { text-align: center !important; }
 .tx-left { text-align: left; }
 .tx-right { text-align: right; }
 h1, h2, h3, h4, h5, h6 { /* ---------------------------------------- Headings */
