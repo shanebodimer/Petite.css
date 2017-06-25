@@ -28,7 +28,7 @@ hr { border: 0 none; height: 1px; background: #ccc; }
 .bg-green { background: #2ecc71 !important; }
 .bg-blue { background: #3498db !important; }
 .bg-white { background: #fff !important; }
-.bg-grey { background: #ccc !important; }
+.bg-grey { background: #f2f2f2 !important; }
 .bg-black { background: #000 !important; }
 .tx-red { color: #e74c3c !important; } /* ------------------------------ Text */
 .tx-orange { color: #e67e22 !important; }
@@ -36,7 +36,7 @@ hr { border: 0 none; height: 1px; background: #ccc; }
 .tx-green { color: #2ecc71 !important;}
 .tx-blue { color: #3498db !important; }
 .tx-white { color: #fff !important; }
-.tx-grey { color: #ccc !important; }
+.tx-grey { color: #f2f2f2 !important; }
 .tx-black { color: #000 !important;}
 .bd-red, .bd-orange, .bd-yellow, /* ---------------------------------- Border */
 .bd-green, .bd-blue, .bd-white,
@@ -47,7 +47,7 @@ hr { border: 0 none; height: 1px; background: #ccc; }
 .bd-green { border-color: #2ecc71 !important; }
 .bd-blue { border-color: #3498db !important; }
 .bd-white { border-color: #fff !important; }
-.bd-grey { border-color: #ccc !important; }
+.bd-grey { border-color: #f2f2f2 !important; }
 .bd-black { border-color: #000 !important; }
 
 /* Buttons ------------------------------------------------------------------ */
@@ -85,8 +85,8 @@ input[type="button"]:hover { background: #f2f2f2; }
 .btn-green:hover { background: #29b765; }
 .btn-blue { color: #fff; background: #3498db; border-color: #3498db; }
 .btn-blue:hover { background: #258cd1; }
-.btn-grey { color: #fff; background: #ccc; color: #000; }
-.btn-grey:hover { background: #bfbfbf; }
+.btn-grey { color: #fff; background: #f2f2f2; color: #000; }
+.btn-grey:hover { background: #d9d9d9; }
 .btn-black { color: #fff; background: #000; border-color: #000;}
 .btn-black:hover { background: #262626; }
 
@@ -110,16 +110,6 @@ input[type="button"]:hover { background: #f2f2f2; }
   .ten.col       { width: 82.6666666667%; }
   .eleven.col    { width: 91.3333333333%; }
   .twelve.col    { width: 100%; margin-left: 0; } }
-
-
-
-
-
-
-
-
-
-
 
 /* Typography --------------------------------------------------------------- */
 .tx-uppercase { text-transform: uppercase; } /* ------------------- Modifiers */
@@ -146,12 +136,48 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
   h6 { font-size: 1.5rem; } }
 
 /* Nav ---------------------------------------------------------------------- */
+nav, /* ------------------------------------------------------------- General */
+.nav {
+  height: 60px;
+  display: block; }
+.nav-brand {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px; }
+.nav-item {
+  line-height: 60px;
+  display: inline-block;
+  padding: 0px 10px 0px 10px; }
+.nav-tx-light { color: rgba(255, 255, 255, 0.5); } /* ---------------- Colors */
+.nav-tx-light .nav-brand { color: rgb(255, 255, 255); }
+.nav-tx-light .nav-item:hover { color: rgb(255, 255, 255); }
+.nav-tx-dark { color: rgba(0, 0, 0, 0.5); }
+.nav-tx-dark .nav-brand { color: #000; }
+.nav-tx-dark .nav-item:hover { color: rgba(0, 0, 0, 0.7); }
+.nav-tx-light .active { color: #fff; }
+.nav-tx-dark .active { color: rgba(0, 0, 0, 0.7); }
+.nav-left { /* ------------------------------------------------------- Floats */
+  display: inline;
+  padding-left: 10px; }
+.nav-right {
+  float: right;
+  display: inline;
+  padding-right: 10px; }
+@media (max-width: 550px) { /* ---------------------------------------- Media */
+  nav, .nav { height: auto; padding-left: 10px; }
+  .nav-item { width: 100%; }
+  .nav-left { padding: 0px 0px 0px 0px; }
+  .nav-right { float: none; padding: 0px 0px 0px 0px; }
+}
 
 
 
 
-
-
+/* Links -------------------------------------------------------------------- */
+a {
+  text-decoration: none;
+  color: inherit;
+}
 /* -------------------------------------------------------------------------- */
 .container {
   width: 100%-15px;
