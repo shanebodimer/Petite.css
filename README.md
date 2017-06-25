@@ -6,5 +6,9 @@ Petite.css is a lightweight, customizable CSS framework.
 
 Here's how to get started with Petite:
 
-1. Download ``petite.css``
-2. Include the file in your page header
+* Download ``petite.css``
+* Include the file in your page header
+
+or
+
+* [Download the quick-start zip](s.zip)
