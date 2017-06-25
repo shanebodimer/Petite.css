@@ -91,9 +91,15 @@ input[type="button"]:hover { background: #f2f2f2; }
 .btn-black:hover { background: #262626; }
 
 /* Grid --------------------------------------------------------------------- */
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+ }
 .col {
   width: 100%;
   float: left; }
+
 @media (min-width: 550px) {
   .col { margin-left: 4%; }
   .col:first-child { margin-left: 0; }
@@ -182,12 +188,71 @@ td {
   border-bottom: 1px solid #E1E1E1; }
 th:first-child,
 td:first-child {
-  padding-left: 0; }
+  padding-left: 5px; }
 th:last-child,
 td:last-child {
-  padding-right: 0; }
+  padding-right: 5px; }
 .hover tbody tr:hover { background-color: #ccc; } /* -------------- Modifiers */
 .striped tr:nth-child(even) { background-color: #f2f2f2; }
+
+/* Input -------------------------------------------------------------------- */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px;
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; }
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; }
+textarea {
+  min-height: 65px;
+  padding-top: 4px;
+  padding-bottom: 4px; }
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #3498db;
+  outline: 0; }
+label,
+legend {
+  display: block;
+  margin-bottom: .5rem; }
+fieldset {
+  padding: 0;
+  border-width: 0; }
+input[type="checkbox"],
+input[type="radio"] {
+   margin-bottom: 8px; }
+label > .label-body {
+  display: inline-block;
+  margin-left: .5rem;
+  font-weight: normal; }
 
 /* Links -------------------------------------------------------------------- */
 a {
