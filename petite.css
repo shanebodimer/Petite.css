@@ -14,12 +14,6 @@ body {
 hr { border: 0 none; height: 1px; background: #ccc; }
 
 /* Mixins ------------------------------------------------------------------- */
-.animate {
-  transition:.5s;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s; }
 
 /* Colors ------------------------------------------------------------------- */
 .bg-red { background: #e74c3c !important; } /* ------------------- Background */
