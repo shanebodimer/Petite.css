@@ -8,11 +8,7 @@ Here's how to get started with Petite:
 
 * [Download Petite.css](https://petitecss.com/petite.css)
 
-or
-
 * [Download the quick-start zip](https://petitecss.com/quickstart.zip)
-
-or
 
 * [Check out Petite.css in action](https://petitecss.com/#examples)
 
