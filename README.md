@@ -1,4 +1,4 @@
-# Petite.css
+# [Petite.css](https://petitecss.com)
 
 Petite.css is a lightweight, customizable CSS framework.
 
@@ -6,12 +6,19 @@ Petite.css is a lightweight, customizable CSS framework.
 
 Here's how to get started with Petite:
 
-* Download ``petite.css`` and ``normalize.css``
-* Include the files in your page header
+* [Download Petite.css](https://petitecss.com/petite.css)
 
 or
 
-* [Download the quick-start zip](s.zip)
+* [Download the quick-start zip](https://petitecss.com/quickstart.zip)
+
+or
+
+* [Check out Petite.css in action](https://petitecss.com/#examples)
+
+## Acknowledgements
+
+Petite.css was built with help from [Normalize.css](https://necolas.github.io/normalize.css/). Icons found on [Petitecss.com](https://petitecss.com) are from [Icons8](https://icons8.com/).
 
 ## License
 
