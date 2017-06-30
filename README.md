@@ -34,7 +34,13 @@ Petite.css works on almost all older versions of these browsers as well. Petite.
 
 ## Acknowledgements
 
-Petite.css was build using [Atom](https://atom.io/). Petite.css was built with help from [Normalize.css](https://necolas.github.io/normalize.css/). Icons found on [Petitecss.com](https://petitecss.com) are from [Icons8](https://icons8.com/). Inspiration from [Skeleton](http://getskeleton.com/), [Bootstrap](https://v4-alpha.getbootstrap.com/), and [Pure](https://purecss.io/).
+Petite.css was built using [Atom](https://atom.io/).
+
+Petite.css was built with help from [Normalize.css](https://necolas.github.io/normalize.css/).
+
+ Icons found on [Petitecss.com](https://petitecss.com) are from [Icons8](https://icons8.com/).
+
+Inspiration from [Skeleton](http://getskeleton.com/), [Bootstrap](https://v4-alpha.getbootstrap.com/), and [Pure](https://purecss.io/).
 
 ## License
 
