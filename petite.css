@@ -176,6 +176,7 @@ nav, /* ------------------------------------------------------------- General */
 .nav-tx-light .active { color: #fff; }
 .nav-tx-dark .active { color: rgba(0, 0, 0, 0.7); }
 .nav-left { /* ------------------------------------------------------- Floats */
+  float: left;
   display: inline;
   padding-left: 10px; }
 .nav-right {
@@ -184,8 +185,8 @@ nav, /* ------------------------------------------------------------- General */
   padding-right: 10px; }
 @media (max-width: 550px) { /* ---------------------------------------- Media */
   nav, .nav { height: auto; padding-left: 10px; }
-  .nav-item { width: 100%; }
-  .nav-left { padding: 0px 0px 0px 0px; }
+  .nav-item { width: 100%; padding: 0px 0px 0px 0px; }
+  .nav-left { float: none; padding: 0px 0px 0px 0px;  }
   .nav-right { float: none; padding: 0px 0px 0px 0px; }
 }
 
@@ -269,6 +270,7 @@ label > .label-body {
 
 /* Other -------------------------------------------------------------------- */
 .container {
+  display: block;
   width: 100%-15px;
   max-width: 820px;
   margin-left: 15px;
